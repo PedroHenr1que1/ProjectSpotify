@@ -6,7 +6,7 @@ import {
   Logo as SpotifyLogo,
   Wrapper,
   Warning,
-} from './styles'
+} from './login.styles'
 
 import Logo from '../../assets/Svg/SpotifyLogo.svg';
 
