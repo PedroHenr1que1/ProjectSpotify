@@ -55,5 +55,4 @@ export const Button = styled.button<StyledButtonProps>`
   :active{
     opacity: 0.75;
   }
-  
 `;

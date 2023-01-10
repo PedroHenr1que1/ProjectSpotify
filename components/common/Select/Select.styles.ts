@@ -10,10 +10,10 @@ export const Title = styled.text`
 
 export const StyledSelect = styled.select`
   color: ${COLORS.fontPrimary};
-  background-color: ${COLORS.backgroundColor};
+  background-color: ${COLORS.primary};
   padding: 14px;
   width: 345px;
-  border: 1px solid ${COLORS.fontSecondary};
+  border: 2px solid ${COLORS.primary};
   border-radius: 10px;
   font-weight: 600;
   .hover {

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { COLORS } from "../../../themes/colors";
+import { COLORS } from '../../../themes/colors';
 
 export const Title = styled.text`
     padding: 10px 0px;
@@ -23,14 +23,17 @@ export const AlinhamentoIcon = styled.div`
 `;
 
 export const Input = styled.input`
-    background-color: ${COLORS.backgroundColor} ;
+    background-color: ${COLORS.gray};
     font-size: 14px;
-    border: 1px solid ${COLORS.fontSecondary};
+    border: 2px solid ${COLORS.gray};
     border-radius: 10px;
     color: ${COLORS.fontPrimary};
     padding: 12px;
     width: 345px;
-    font-weight: 700;
+    font-weight: 600;
+    .hover {
+        color: red;
+    }
     ::placeholder{
         color: ${COLORS.fontSecondary};
         font-weight: 400;
@@ -40,9 +43,10 @@ export const Input = styled.input`
     }
     @media (max-width: 750px) {
         width: 300px;
+        height: 36px;
     }
     @media (max-width: 360px) {
         width: 250px;
-        height: 38px;
+        height: 34px;
     }
 `;
